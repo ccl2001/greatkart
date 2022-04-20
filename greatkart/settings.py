@@ -11,9 +11,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 #aaa
-DEBUG = config('DEBUG', default=False, cast=bool) # True
+DEBUG = config('DEBUG', default=True, cast=bool) # True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoaws-env.eba-qaywr4ex.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
