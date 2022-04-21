@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 #aaa
 DEBUG = config('DEBUG', default=True, cast=bool) # True
 
-ALLOWED_HOSTS = ['djangoaws-env.eba-qaywr4ex.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['djangoaws-env.eba-qaywr4ex.us-west-2.elasticbeanstalk.com','*']
 # ALLOWED_HOSTS=[]
 
 # Application definition
